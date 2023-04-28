@@ -16,14 +16,13 @@ export default function About() {
         style={{
           margin: "15px"
         }}>
-          <a href={url}><img src={img1} width="400" height="400" /></a>
-          
+          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>         
         </div>
         <div
         style={{
           margin: "15px"
         }}>
-          <img src={img1} width="400" height="400" />
+          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
         </div>
       </div>
       <div
@@ -37,13 +36,13 @@ export default function About() {
         style={{
           margin: "15px"
         }}>
-          <img src={img1} width="400" height="400" />
+          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
         </div>
         <div
         style={{
           margin: "15px"
         }}>
-          <img src={img1} width="400" height="400" />
+          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
         </div>
       </div>
 

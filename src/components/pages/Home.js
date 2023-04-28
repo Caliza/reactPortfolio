@@ -1,9 +1,15 @@
 import React from 'react';
+import img1 from '../images/selfimg.jpg';
+
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>About Me</h1>
+      
+      <div>
+        <img src={img1} width="600" height="450"/>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

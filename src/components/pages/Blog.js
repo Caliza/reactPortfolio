@@ -1,24 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
+import PDF from '../../assets/RancesRodriguez.pdf'
 
 export default function Blog() {
+  const [showPDF, setShowPDF] = useState(true);
+  const handleClick = () => setShowPDF(!showPDF)
   return (
     <div>
       <h1>Resume</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        Print or Download my {" "}
+        <a href="#resumePDF" onClick={handleClick}>Resume</a>
       </p>
+      {showPDF?(<object aria-label="pdf resume" width="100%" height="600" data={PDF} type="application/pdf" />):(<div>
+        <ul>
+            Front-end Proficiencies
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Responsive Design</li>
+            <li>ReactJS</li>
+            <li>Bootstrap</li>
+          </ul>
+          <ul>
+            Back-end Proficiencies
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL & Sequelize</li>
+            <li>MongoDB & Mongoose</li>
+            <li>REST APIs</li>
+            <li>GraphQL</li>
+          </ul>
+      </div>)}
+      
     </div>
   );
 }

@@ -6,4 +6,20 @@
 main {
     width: 88%;
     margin: 0 auto;
+    margin-top: 25px;
+}
+
+footer {
+    width: 88%;
+    margin: 0 auto;
+}
+
+margin {
+margin-top: 20px;
+}
+
+.logo {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
 }

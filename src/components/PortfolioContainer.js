@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -30,6 +32,14 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <main>{renderPage()}</main>
+      <footer class="logo">
+        <a href="https://github.com/Caliza">
+        <FaGithub size={55}/>
+      </a>
+      <a href="https://github.com/Caliza">
+        <FaLinkedin />
+      </a>
+      </footer>
     </div>
   );
 }

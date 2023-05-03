@@ -3,7 +3,7 @@ import img1 from '../images/passwordGenerator.jpg';
 
 export default function About() {
   return (
-    <div>
+    <div className='height'>
       <h1>Portfolio</h1>
       <div
         style={{

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import PDF from '../../assets/RancesRodriguez.pdf'
 
 export default function Blog() {
-  const [showPDF, setShowPDF] = useState(true);
+  const [showPDF, setShowPDF] = useState(false);
   const handleClick = () => setShowPDF(!showPDF)
   return (
-    <div>
+    <div className='height'>
       <h1>Resume</h1>
       <p>
         Print or Download my {" "}
@@ -13,7 +13,7 @@ export default function Blog() {
       </p>
       {showPDF?(<object aria-label="pdf resume" width="100%" height="600" data={PDF} type="application/pdf" />):(<div>
         <ul>
-            Front-end Proficiencies
+            <h3>Front-end Proficiencies</h3>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -23,7 +23,7 @@ export default function Blog() {
             <li>Bootstrap</li>
           </ul>
           <ul>
-            Back-end Proficiencies
+            <h3>Back-end Proficiencies</h3>
             <li>APIs</li>
             <li>Node</li>
             <li>Express</li>

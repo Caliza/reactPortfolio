@@ -27,17 +27,17 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={{backgroundColor: 'rgb(83 146 208)'}}>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main>{renderPage()}</main>
+      <main >{renderPage()}</main>
       <footer class="logo">
         <a href="https://github.com/Caliza">
-        <FaGithub size={55}/>
+        <FaGithub size={50}/>
       </a>
-      <a href="https://github.com/Caliza">
-        <FaLinkedin />
+      <a href="https://www.linkedin.com/in/rances-rodriguez/">
+        <FaLinkedin size={50}/>
       </a>
       </footer>
     </div>

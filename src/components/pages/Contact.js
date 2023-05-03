@@ -49,7 +49,7 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div className='height'>
       <Form className="form">
 
       <Form.Group className="mb-3" controlId="formBasicName">
@@ -67,7 +67,7 @@ function ContactForm() {
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Your message</Form.Label>
-        <Form.Control value={message} as="textarea" name="message" type="message" onChange={handleInputChange} placeholder="message" rows={3} />
+        <Form.Control value={message} as="textarea" name="message" type="message" onChange={handleInputChange} placeholder="Message" rows={5} />
       </Form.Group>
       <Button variant="primary" type="submit" onClick={handleFormSubmit}>
         Submit

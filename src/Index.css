@@ -14,8 +14,21 @@ footer {
     margin: 0 auto;
 }
 
+.height {
+    height: 100vh;
+}
+
 .margin {
-margin-top: 20px;
+padding-top: 110px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.active {
+    background-color:rgb(113 157 201);
+    /* background-color: #a6c2de; */
 }
 
 .logo {

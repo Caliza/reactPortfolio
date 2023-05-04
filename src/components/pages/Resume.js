@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PDF from '../../assets/RancesRodriguez.pdf'
 
-export default function Blog() {
+export default function Resume() {
   const [showPDF, setShowPDF] = useState(false);
   const handleClick = () => setShowPDF(!showPDF)
   return (

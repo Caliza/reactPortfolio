@@ -1,9 +1,9 @@
 import React from 'react';
 import img1 from '../images/passwordGenerator.jpg';
 
-export default function About() {
+export default function Portfolio() {
   return (
-    <div className='height'>
+    <div className=''>
       <h1>Portfolio</h1>
       <div
         style={{

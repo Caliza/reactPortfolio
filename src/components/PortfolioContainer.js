@@ -3,8 +3,8 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -15,11 +15,11 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };
@@ -27,9 +27,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={{backgroundColor: 'rgb(83 146 208)'}}>
+    <div style={{backgroundColor: 'rgb(158 178 198)'}}>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <hr className="width" style={{height: '15px', background: 'black', borderColor: 'black', margin: '0.5rem', opacity: '0.9'}}></hr> 
       {/* Here we are calling the renderPage method which will return a component  */}
       <main >{renderPage()}</main>
       <footer class="logo">

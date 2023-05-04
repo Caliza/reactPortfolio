@@ -2,6 +2,9 @@
     width: 500px;
     height: 600px;
  } */
+body{
+    background-color:rgb(158 178 198);
+}
 
 main {
     width: 88%;
@@ -18,8 +21,8 @@ footer {
     height: 100vh;
 }
 
-.margin {
-padding-top: 110px;
+.padding {
+padding-top: 125px;
 }
 
 .nav-link {
@@ -27,7 +30,7 @@ padding-top: 110px;
 }
 
 .active {
-    background-color:rgb(113 157 201);
+    background-color:rgb(124 163 202);
     /* background-color: #a6c2de; */
 }
 
@@ -35,4 +38,8 @@ padding-top: 110px;
     font-size: 50px;
     display: flex;
     justify-content: center;
+}
+
+.width {
+    width: 100vmax;
 }

@@ -5,7 +5,7 @@ import img1 from '../images/selfimg.jpg';
 export default function Home() {
   return (
     <div className='height'>
-      <h1>About Me</h1>
+      <h1>Rances Rodriguez</h1>
       
       <div>
         <img src={img1} width="600" height="450"/>

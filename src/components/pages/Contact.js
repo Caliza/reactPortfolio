@@ -54,7 +54,7 @@ function ContactForm() {
 
       <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Name</Form.Label>
-        <Form.Control value={email} type="text" name="name" onChange={handleInputChange} placeholder="Enter name" />  
+        <Form.Control value={name} type="text" name="name" onChange={handleInputChange} placeholder="Enter name" />  
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">

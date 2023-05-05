@@ -20,6 +20,11 @@ footer {
     border: none;
 }
 
+cotainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .height {
     height: 100vh;
 }

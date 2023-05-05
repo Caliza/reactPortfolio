@@ -6,7 +6,7 @@ import img4 from '../images/techBlog.jpg'
 
 export default function Portfolio() {
   return (
-    <div className=''>
+    <div className='container'>
       <h1>Portfolio</h1>
       <div
         style={{
@@ -19,7 +19,7 @@ export default function Portfolio() {
         style={{
           margin: "15px"
         }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img1} width="400" height="400" /></a>         
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img1} width="400"  /></a>         
         </div>
         <div
         style={{
@@ -39,7 +39,7 @@ export default function Portfolio() {
         style={{
           margin: "15px"
         }}>
-          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} width="400" height="400" /></a>
+          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} max-width="400" height="400" /></a>
         </div>
         <div
         style={{

@@ -20,13 +20,13 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img className='hover image' src={img1}/></a>
+          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img className='image imgBorder' src={img1}/></a>
         </div>
         <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img className='hover image' src={img2}/></a>
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img className='image' src={img2}/></a>
         </div>
       </div>
       <div
@@ -41,7 +41,7 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://caliza.github.io/javascriptQuiz/`}><img className='hover image' src={img3}/></a>
+          <a href={`https://caliza.github.io/javascriptQuiz/`}><img className='image' src={img3}/></a>
         </div>
         <div className='shrink'
           style={{

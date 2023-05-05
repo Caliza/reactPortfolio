@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
       <hr className="margin hr" ></hr> 
       {/* Here we are calling the renderPage method which will return a component  */}
       <main >{renderPage()}</main>
-      <footer class="logo">
+      <footer class="logo grow">
         <a href="https://github.com/Caliza">
         <FaGithub size={50}/>
       </a>

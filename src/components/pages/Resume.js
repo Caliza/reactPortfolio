@@ -8,7 +8,7 @@ export default function Resume() {
     <div className='height'>
       <h1>Resume</h1>
       <p>
-        To view or Download my {" "}
+        To View or Download my {" "}
         <a href="#resumePDF" onClick={handleClick}>Resume</a>
       </p>
       {showPDF?(<object aria-label="pdf resume" width="100%" height="600" data={PDF} type="application/pdf" />):(<div>

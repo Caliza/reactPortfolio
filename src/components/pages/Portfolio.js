@@ -11,41 +11,43 @@ export default function Portfolio() {
       <div
         style={{
           display: "flex",
+          flexWrap: "wrap",
           alignItems: "center",
           justifyContent: "center",
           height: "100%",
         }}>
         <div
-        style={{
-          margin: "15px"
-        }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img1} width="400"  /></a>         
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img src={img1} maxWidth="400" height="400"/></a>
         </div>
         <div
-        style={{
-          margin: "15px"
-        }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img2} width="400" height="400" /></a>
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img2} maxWidth="400" height="400"/></a>
         </div>
       </div>
       <div
         style={{
           display: "flex",
+          flexWrap: "wrap",
           alignItems: "center",
           justifyContent: "center",
           height: "100%"
         }}>
         <div
-        style={{
-          margin: "15px"
-        }}>
-          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} max-width="400" height="400" /></a>
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} maxWidth="400" height="400"/></a>
         </div>
         <div
-        style={{
-          margin: "15px"
-        }}>
-          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img src={img4} width="400" height="400" /></a>
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img src={img4} maxWidth="400" height="400" /></a>
         </div>
       </div>
 

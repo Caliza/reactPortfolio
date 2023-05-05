@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.0610bdc4.css",
+    "main.js": "/reactPortfolio/static/js/main.5b761b25.js",
+    "static/media/booze.jpg": "/reactPortfolio/static/media/booze.5d941b67fa760fa3f938.jpg",
+    "static/media/selfimg.jpg": "/reactPortfolio/static/media/selfimg.61b5f9bf15d52e392936.jpg",
+    "static/media/javascript.jpg": "/reactPortfolio/static/media/javascript.6ef1e2f1878d92961dd9.jpg",
+    "static/media/movieMaker.jpg": "/reactPortfolio/static/media/movieMaker.49725ef3f0ebaf145c7f.jpg",
+    "static/media/river.jpeg": "/reactPortfolio/static/media/river.89d8585a7b487cef3178.jpeg",
+    "static/media/techBlog.jpg": "/reactPortfolio/static/media/techBlog.d92dff33511487acd123.jpg",
+    "static/media/RancesRodriguez.pdf": "/reactPortfolio/static/media/RancesRodriguez.82c3c888f917460c829b.pdf",
+    "index.html": "/reactPortfolio/index.html",
+    "main.0610bdc4.css.map": "/reactPortfolio/static/css/main.0610bdc4.css.map",
+    "main.5b761b25.js.map": "/reactPortfolio/static/js/main.5b761b25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0610bdc4.css",
+    "static/js/main.5b761b25.js"
+  ]
+}

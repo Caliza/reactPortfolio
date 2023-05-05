@@ -1,5 +1,8 @@
 import React from 'react';
-import img1 from '../images/passwordGenerator.jpg';
+import img1 from '../images/movieMaker.jpg';
+import img2 from '../images/booze.jpg'
+import img3 from '../images/javascript.jpg'
+import img4 from '../images/techBlog.jpg'
 
 export default function Portfolio() {
   return (
@@ -16,13 +19,13 @@ export default function Portfolio() {
         style={{
           margin: "15px"
         }}>
-          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>         
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img1} width="400" height="400" /></a>         
         </div>
         <div
         style={{
           margin: "15px"
         }}>
-          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img2} width="400" height="400" /></a>
         </div>
       </div>
       <div
@@ -36,13 +39,13 @@ export default function Portfolio() {
         style={{
           margin: "15px"
         }}>
-          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
+          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} width="400" height="400" /></a>
         </div>
         <div
         style={{
           margin: "15px"
         }}>
-          <a href={`https://github.com/Caliza/reactPortfolio`}><img src={img1} width="400" height="400" /></a>
+          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img src={img4} width="400" height="400" /></a>
         </div>
       </div>
 

@@ -16,13 +16,16 @@ footer {
     width: 88%;
     margin: 0 auto;
 }
+.border {
+    border: none;
+}
 
 .height {
     height: 100vh;
 }
 
 .padding {
-padding-top: 125px;
+padding-top: 140px;
 }
 
 .nav-link {
@@ -40,6 +43,10 @@ padding-top: 125px;
     justify-content: center;
 }
 
-.width {
-    width: 100vmax;
+.margin {
+    border: none;
+    margin-top: 0.6rem;
+    background: linear-gradient(to left, black, rgb(0, 174, 255));
+    height: 13px;
+    opacity: .9;
 }

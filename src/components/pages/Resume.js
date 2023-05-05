@@ -8,7 +8,7 @@ export default function Resume() {
     <div className='height'>
       <h1>Resume</h1>
       <p>
-        Print or Download my {" "}
+        To view or Download my {" "}
         <a href="#resumePDF" onClick={handleClick}>Resume</a>
       </p>
       {showPDF?(<object aria-label="pdf resume" width="100%" height="600" data={PDF} type="application/pdf" />):(<div>
@@ -17,10 +17,12 @@ export default function Resume() {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Responsive Design</li>
             <li>ReactJS</li>
+            <li>HandlebarsJS</li>
+            <li>Responsive Design</li>
+            <li>jQuery</li> 
             <li>Bootstrap</li>
+            <li>Bulma</li>
           </ul>
           <ul>
             <h3>Back-end Proficiencies</h3>

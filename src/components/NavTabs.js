@@ -5,7 +5,7 @@ import background from './images/river.jpeg';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="padding nav nav-tabs" style={{backgroundImage: `URL(${background})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+    <ul className="padding nav nav-tabs border" style={{backgroundImage: `URL(${background})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
       <li className="nav-item">
         <a
           href="#home"

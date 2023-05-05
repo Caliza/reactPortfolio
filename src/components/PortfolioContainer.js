@@ -27,10 +27,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={{backgroundColor: 'rgb(158 178 198)'}}>
+    <div className='border' style={{backgroundColor: 'rgb(158 178 198)'}}>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <hr className="width" style={{height: '15px', background: 'black', borderColor: 'black', margin: '0.5rem', opacity: '0.9'}}></hr> 
+      <hr className="margin hr" ></hr> 
       {/* Here we are calling the renderPage method which will return a component  */}
       <main >{renderPage()}</main>
       <footer class="logo">

@@ -20,13 +20,17 @@ footer {
     border: none;
 }
 
-cotainer{
-    display: flex;
-    flex-wrap: wrap;
+.container{
+    overflow: hidden;
 }
 
 .height {
     height: 100vh;
+}
+
+.image {
+    max-width: 400px;
+    min-height: 200px;
 }
 
 .padding {
@@ -55,3 +59,14 @@ padding-top: 140px;
     height: 13px;
     opacity: .9;
 }
+
+.shrink img {
+    transition: 1s ease;
+    }
+    
+    .shrink img:hover{
+    -webkit-transform: scale(0.88);
+    -ms-transform: scale(0.88);
+    transform: scale(0.88);
+    transition: 1s ease;
+    }

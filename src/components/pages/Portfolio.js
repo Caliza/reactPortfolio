@@ -16,17 +16,17 @@ export default function Portfolio() {
           justifyContent: "center",
           height: "100%",
         }}>
-        <div
+        <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img src={img1} maxWidth="400" height="400"/></a>
+          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img className='hover image' src={img1}/></a>
         </div>
-        <div
+        <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img src={img2} maxWidth="400" height="400"/></a>
+          <a href={`https://jsrra.github.io/Booze-Hound/`}><img className='hover image' src={img2}/></a>
         </div>
       </div>
       <div
@@ -37,17 +37,17 @@ export default function Portfolio() {
           justifyContent: "center",
           height: "100%"
         }}>
-        <div
+        <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://caliza.github.io/javascriptQuiz/`}><img src={img3} maxWidth="400" height="400"/></a>
+          <a href={`https://caliza.github.io/javascriptQuiz/`}><img className='hover image' src={img3}/></a>
         </div>
-        <div
+        <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img src={img4} maxWidth="400" height="400" /></a>
+          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img className='image' src={img4}/></a>
         </div>
       </div>
 

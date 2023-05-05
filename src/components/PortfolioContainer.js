@@ -41,6 +41,8 @@ export default function PortfolioContainer() {
         <FaLinkedin size={50}/>
       </a>
       </footer>
+      <hr className="margin hr" ></hr> 
+      <div ></div>
     </div>
   );
 }

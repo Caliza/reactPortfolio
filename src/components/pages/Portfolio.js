@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from '../images/movieMaker.jpg';
 import img2 from '../images/booze.jpg'
-import img3 from '../images/javascript.jpg'
+import img3 from '../images/yardsale2.jpg'
 import img4 from '../images/techBlog.jpg'
 
 export default function Portfolio() {
@@ -26,7 +26,7 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://jsrra.github.io/Booze-Hound/`}><img className='image' src={img2}/></a>
+          <a href={`https://yardsale-2-application.herokuapp.com/`}><img className='image' src={img2}/></a>
         </div>
       </div>
       <div

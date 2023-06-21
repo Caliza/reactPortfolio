@@ -5,7 +5,7 @@ export default function Resume() {
   const [showPDF, setShowPDF] = useState(false);
   const handleClick = () => setShowPDF(!showPDF)
   return (
-    <div className='height'>
+    <div className='container'>
       <h1>Resume</h1>
       <p>
         To View or Download my {" "}

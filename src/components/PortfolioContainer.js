@@ -27,18 +27,18 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='border' style={{backgroundColor: 'rgb(158 178 198)'}}>
+    <div className='border' style={{backgroundColor: 'rgb(150, 190, 229)'}}>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <hr className="margin hr" ></hr> 
       {/* Here we are calling the renderPage method which will return a component  */}
       <main >{renderPage()}</main>
-      <footer class="logo grow">
+      <footer class="logo grow footer">
         <a href="https://github.com/Caliza">
-        <FaGithub size={50}/>
+        <FaGithub size={35}/>
       </a>
       <a href="https://www.linkedin.com/in/rances-rodriguez/">
-        <FaLinkedin size={50}/>
+        <FaLinkedin size={35}/>
       </a>
       </footer>
       <hr className="margin hr" ></hr> 

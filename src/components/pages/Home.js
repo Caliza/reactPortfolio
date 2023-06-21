@@ -4,7 +4,7 @@ import img1 from '../images/selfimg.jpg';
 
 export default function Home() {
   return (
-    <div className='height'>
+    <div className='container'>
       <h1>Rances Rodriguez</h1>
       
       <div>

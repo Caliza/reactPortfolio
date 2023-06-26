@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PDF from '../../assets/RancesRodriguez.pdf'
+import PDF from '../../assets/RancesLRodriguez.pdf'
 
 export default function Resume() {
   const [showPDF, setShowPDF] = useState(false);

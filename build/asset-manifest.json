@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.76a99baf.css",
-    "main.js": "/reactPortfolio/static/js/main.ca3b207b.js",
+    "main.js": "/reactPortfolio/static/js/main.70437308.js",
     "static/media/booze.jpg": "/reactPortfolio/static/media/booze.77c01e3caece4b895224.jpg",
     "static/media/selfimg.jpg": "/reactPortfolio/static/media/selfimg.61b5f9bf15d52e392936.jpg",
     "static/media/movieMaker.jpg": "/reactPortfolio/static/media/movieMaker.4111c9bb1a660a17b1e0.jpg",
     "static/media/river.jpeg": "/reactPortfolio/static/media/river.89d8585a7b487cef3178.jpeg",
     "static/media/techBlog.jpg": "/reactPortfolio/static/media/techBlog.d92dff33511487acd123.jpg",
     "static/media/yardsale2.jpg": "/reactPortfolio/static/media/yardsale2.6c6308e3a04a9b8786e4.jpg",
-    "static/media/RancesRodriguez.pdf": "/reactPortfolio/static/media/RancesRodriguez.82c3c888f917460c829b.pdf",
+    "static/media/RancesLRodriguez.pdf": "/reactPortfolio/static/media/RancesLRodriguez.18335de118ccc29cde87.pdf",
     "index.html": "/reactPortfolio/index.html",
     "main.76a99baf.css.map": "/reactPortfolio/static/css/main.76a99baf.css.map",
-    "main.ca3b207b.js.map": "/reactPortfolio/static/js/main.ca3b207b.js.map"
+    "main.70437308.js.map": "/reactPortfolio/static/js/main.70437308.js.map"
   },
   "entrypoints": [
     "static/css/main.76a99baf.css",
-    "static/js/main.ca3b207b.js"
+    "static/js/main.70437308.js"
   ]
 }

@@ -20,30 +20,30 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><img className='image imgBorder' src={img1} /></a>
+          <a href={`https://github.com/JordyMarquez/Binary-Trio-Movie-Reviewer`} target="_blank" rel="noopener noreferrer"><img className='image imgBorder' src={img1} /></a>
           <div className='shrink'
             style={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}>
-              <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><h3>Test</h3></a>
-           </div>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://github.com/JordyMarquez/Binary-Trio-Movie-Reviewer`} target="_blank" rel="noopener noreferrer"><h3>Movie Reviewer</h3></a>
+          </div>
 
         </div>
         <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://yardsale-2-application.herokuapp.com/`}><img className='image' src={img2} /></a>
+          <a href={`https://github.com/mariahw4/yardsale-2.0`} target="_blank" rel="noopener noreferrer"><img className='image' src={img2} /></a>
           <div className='shrink'
             style={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}>
-              <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><h3>Test</h3></a>
-           </div>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://github.com/mariahw4/yardsale-2.0`} target="_blank" rel="noopener noreferrer"><h3>Yard Sale 2.0</h3></a>
+          </div>
         </div>
       </div>
       <div
@@ -58,29 +58,30 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://caliza.github.io/javascriptQuiz/`}><img className='image' src={img3} /></a>
+          <a href={`https://stark-bayou-41796.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img3} /></a>
           <div className='shrink'
             style={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}>
-              <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><h3>Test</h3></a>
-           </div>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://stark-bayou-41796.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Text Editor</h3></a>
+          </div>
         </div>
         <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://arcane-stream-71577.herokuapp.com/`}><img className='image' src={img4} /></a>
+          <a href={`https://arcane-stream-71577.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img4} /></a>
           <div className='shrink'
             style={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}>
-              <a href={`https://binary-trio-movie-reviewer.herokuapp.com/`}><h3>Test</h3></a>
-           </div>
+            <a style={{ textDecoration: 'none', color: 'black' }}
+              href={`https://arcane-stream-71577.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Tech Blog</h3></a>
+          </div>
         </div>
       </div>
 

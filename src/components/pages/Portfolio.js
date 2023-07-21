@@ -58,21 +58,21 @@ export default function Portfolio() {
           style={{
             margin: "15px"
           }}>
-          <a href={`https://stark-bayou-41796.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img3} /></a>
+          <a href={`https://caliza.github.io/weatherDashboard/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img3} /></a>
           <div className='shrink'
             style={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}>
-            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://stark-bayou-41796.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Text Editor</h3></a>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://caliza.github.io/weatherDashboard/`} target="_blank" rel="noopener noreferrer"><h3>Weather Dashboard</h3></a>
           </div>
         </div>
         <div className='shrink'
           style={{
             margin: "15px"
           }}>
-          <a href={`https://arcane-stream-71577.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img4} /></a>
+          <a href={`https://frozen-sea-60329.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img4} /></a>
           <div className='shrink'
             style={{
               display: "flex",
@@ -80,7 +80,7 @@ export default function Portfolio() {
               justifyContent: "center",
             }}>
             <a style={{ textDecoration: 'none', color: 'black' }}
-              href={`https://arcane-stream-71577.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Tech Blog</h3></a>
+              href={`https://frozen-sea-60329.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Google Book Search</h3></a>
           </div>
         </div>
       </div>

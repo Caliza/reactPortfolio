@@ -83,6 +83,44 @@ export default function Portfolio() {
               href={`https://frozen-sea-60329.herokuapp.com/`} target="_blank" rel="noopener noreferrer"><h3>Google Book Search</h3></a>
           </div>
         </div>
+        <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100%",
+        }}>
+        <div className='shrink'
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://jsrra.github.io/Booze-Hound/`} target="_blank" rel="noopener noreferrer"><img className='image imgBorder' src={img1} /></a>
+          <div className='shrink'
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://jsrra.github.io/Booze-Hound/`} target="_blank" rel="noopener noreferrer"><h3>Booze Hound</h3></a>
+          </div>
+
+        </div>
+        <div className='shrink'
+          style={{
+            margin: "15px"
+          }}>
+          <a href={`https://caliza.github.io/javascriptQuiz/`} target="_blank" rel="noopener noreferrer"><img className='image' src={img2} /></a>
+          <div className='shrink'
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}>
+            <a style={{ textDecoration: 'none', color: 'black' }} href={`https://caliza.github.io/javascriptQuiz/`} target="_blank" rel="noopener noreferrer"><h3>JavaScript Quiz</h3></a>
+          </div>
+        </div>
+      </div>
       </div>
 
       <p>
